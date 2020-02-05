@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ A\ simple\ class\ to\ measure\ the\ time\ (or\ amount\ of\ moves)\ within\ the\ game.\r\n\r\n\ @author\ Oskar\ Klear\r\n\ @version\ 20.11.2017\r\n
+comment1.params=defaultTime\ defaultUpdate
+comment1.target=Timer(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ the\ timer\ class.\ \r\n
+comment2.params=
+comment2.target=void\ updateTimer()
+comment2.text=\r\n\ Updates\ the\ timer.\r\n
+comment3.params=
+comment3.target=int\ getTime()
+comment3.text=\r\n\ Returns\ the\ timer,\ in\ this\ case\ used\ for\ number\ of\ moves.\r\n
+numComments=4
