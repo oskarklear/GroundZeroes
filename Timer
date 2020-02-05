@@ -1,0 +1,31 @@
+
+/**
+ * A simple class to measure the time (or amount of moves) within the game.
+ *
+ * @author Oskar Klear
+ * @version 16.02.2018
+ */
+public class Timer {
+    private int timer;
+    private int update;
+    /**
+     * Constructor for the timer class. 
+     */
+    public Timer(int defaultTime, int defaultUpdate) {
+        timer = defaultTime;
+        update = defaultUpdate;
+    }
+    /**
+     * Updates the timer.
+     */
+    public void updateTimer() {
+        timer += update;
+    }
+    /**
+     * Returns the timer, in this case used for number of moves.
+     */
+    public int getTime()
+    {
+        return timer;
+    }
+}
